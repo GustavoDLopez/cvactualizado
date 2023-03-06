@@ -1,0 +1,58 @@
+
+  *{ background-color: rgb(211, 243, 243) ;
+    
+}
+
+#cabeza { text-align: center;
+  font-size: 50px ;
+  color: blueviolet;
+  
+
+}
+
+.center {  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.titulo {
+  color : blueviolet ;
+  width:  50% ;
+  margin-right: auto;
+ 
+  }
+
+.titulos {
+  color : violet;
+  width:  40% ;
+  margin-left:  1px ;
+  border :  4px purple solid;
+  
+  }
+
+.cuerpo {
+  border :  10px purple solid;
+  padding:   10px ;
+  width: auto;
+  height:  auto;
+  text-align: justify;
+  background-color: rgb(219, 245, 236);
+  }
+  
+  li {  
+    color : blueviolet;
+        width:   40% ;
+       
+    }
+
+    #button{
+    right: 10px;
+    position: absolute;
+    top: 50%;
+  }
+  #info{
+    font-size: 50px ;
+    color: blueviolet;
+
+  }
