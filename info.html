@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>InfoAdicional</title>
+    
+</head>
+<body>
+
+    <a id="info"></a>
+    <script>
+    const informacion= 
+        '{ "carnet":"automovil","disponivilidad":"horaria","disponibilidad2":"viajar","certificado":"operador linux","certificado2":"programacion python inicial"}'
+
+     
+        
+      const cuali= JSON.parse(informacion);
+      console.log(cuali);
+      document.getElementById("info").innerHTML= 
+      "carnet: "+cuali.carnet + 
+      ", disponivilidad: " +cuali.disponivilidad  + 
+
+      ", certificado: " +cuali.certificado+
+      ", certificado2: " +cuali.certificado2;
+    </script>  
+</body>
+</html>
